@@ -1,4 +1,3 @@
-package Models;
 
 public  class Stationery extends Product{
     private String thuong_hieu;

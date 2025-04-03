@@ -1,4 +1,3 @@
-package Models;
 
 public class Toy extends Product {
     

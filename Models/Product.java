@@ -1,4 +1,3 @@
-package Models;
 
 abstract class Product {
     protected String id;
