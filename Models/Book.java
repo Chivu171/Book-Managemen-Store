@@ -1,4 +1,4 @@
-
+package Models;
 public class Book extends Product {
     private String Author_Name;
     private String NXB;
@@ -8,11 +8,10 @@ public class Book extends Product {
         this.Author_Name = Author_Name;
         this.NXB = NXB;
     }
-    @Override
     public void displayinfo() {
-            System.out.println("ID:" + id);
-            System.out.println("Tên sách:" + name);
-            System.out.println("Tên tác giả:" + Author_Name);
-            System.out.println("Nhà xuất bản: "+NXB);
+            System.out.println("ID:" + this.id);
+            System.out.println("Tên sách:" + this.name);
+            System.out.println("Tên tác giả:" + this.Author_Name);
+            System.out.println("Nhà xuất bản: "+ this.NXB);
     }
 }

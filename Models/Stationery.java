@@ -1,5 +1,5 @@
 
-public  class Stationery extends Product{
+public class Stationery extends Product{
     private String thuong_hieu;
     private String type;
 

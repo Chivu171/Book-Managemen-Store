@@ -1,5 +1,5 @@
 
-abstract class Product {
+public class Product {
     protected String id;
     protected String name;
     protected int quantity;
